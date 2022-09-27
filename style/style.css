@@ -1,0 +1,50 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #b7cada;
+    padding: 15px;
+    border-radius: 25px;
+  }
+  
+  .grid-container > div {
+    background-color: #ffffffcc;
+    border: 1px solid rgb(199, 164, 164);
+    border-radius: 25px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+.frame
+  {
+    height: 250px;
+    border-radius: 50%;
+    transition: transform 3s, width 2s, height 3s, border-radius 3s ;
+    padding-top: 8px;
+  }
+
+.frame:hover
+  {
+    border-radius: 0%;
+    height: 300px;
+    transform: rotate(360deg);
+  }
+
+  .Nav-Title
+  { text-align: center;
+    font-size: 50px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #b7cada;
+    border-radius: 50px;
+  }
+  footer
+  {
+    text-align: center;
+    align-items: center;
+  }
+
+.icon
+  {
+    height: 30px;
+  }
